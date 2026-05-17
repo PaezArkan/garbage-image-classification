@@ -1,0 +1,36 @@
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Model artifacts (track these via Releases or Git LFS if needed)
+*.keras
+*.h5
+*.pb
+saved_model/
+checkpoints/
+
+# Dataset cache
+data/
+.cache/
+*.tfrecord
+*.tfrecords
+
+# Kaggle credentials (never commit these)
+kaggle.json
+.kaggle/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
